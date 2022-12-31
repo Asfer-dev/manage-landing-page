@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+  <title>Manage Landing Page</title>
+  <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#">
+          <svg class="logo" width="146" height="24">
+            <use xlink:href="./images/icons.svg#logo"></use>
+          </svg>
+        </a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <img class="icon-hamburger" src="images/icon-hamburger.svg" alt="" data-visible="true" aria-hidden="true">
+          <img class="icon-close" src="images/icon-close.svg" alt="" data-visible="false" aria-hidden="true">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul role="list" class="nav-list">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </nav>
+        <button class="button | display-sm-none">Get Started</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+
+    <!-- Top Section -->
+    <section class="padding-block-900 text-center-sm-only">
+      <div class="container">
+        <div class="even-columns">
+          <div class="flow">
+            <h1 class="fs-primary-heading fw-bold">Bring everyone together to build better products.</h1>
+            <p class="text-center-sm-only">Manage makes it simple for software teams
+              to plan day-to-day tasks while keeping the
+              larger team goals in view.</p>
+            <button class="button">Get Started</button>
+          </div>
+          <div class="hero-img | text-center-sm-only">
+            <img src="images/illustration-intro.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Middle Section -->
+    <section class="padding-block-900">
+      <div class="container">
+        <div class="even-columns">
+          <div class="flow">
+            <h2 class="fs-secondary-heading fw-bold text-center-sm-only">What's different about Manage?</h2>
+            <p class="text-center-sm-only">Manage provides all the functionality your
+              team needs, without the complexity, Our
+              software is tailor-made for modern digital
+              product teams.</p>
+          </div>
+          <div>
+            <ul role="list" class="numbered-items | flow">
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items-title | fs-600 fw-bold">Track company-wide progress</h3>
+                  <p class="numbered-items-content" data-width="wide">See how your day-to-day tasks fit into the wider vision.
+                  Go from tracking progress at the milestone level all the
+                  way done to the smallest of details. Never lose sight of
+                  the bigger picture again.</p>
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items-title | fs-600 fw-bold">Advanced built-in reports</h3>
+                  <p class="numbered-items-content" data-width="wide">Set internal delivery estimates and track progress toward
+                  company goals. Our customisable dashboard helps you
+                  build out the reports you need to keep key stakeholders
+                  informed.</p>
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items-title | fs-600 fw-bold">Everything you need in one place</h3>
+                  <p class="numbered-items-content" data-width="wide">Stop jumping from one service to another to
+                  communicate, store files, track tasks and share
+                  documents. Manage offers an all-in-one team
+                  productivity solution.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Carousel -->
+    <section class="carousel | padding-block-900 text-center">
+      <h3 class="fs-secondary-heading fw-bold">What they've said</h3>
+      <!-- Carousel here -->
+      <ul class="slider">
+        <li>
+          <img src="images/avatar-anisha.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Anisha Li</h3>
+            <p data-width="wide" class="">"Manage has supercharged our team's workflow. The
+              ability to maintain visibility on larger milestones at all times
+              keeps everyone motivated."</p>
+          </div>
+        </li>
+        <li>
+          <img src="images/avatar-ali.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Ali Bravo</h3>
+            <p>"We have been able to cancel so many other subscriptions
+              since using Manage. There is no more cross-channel
+              confusion and everyone is much more focused."</p>
+          </div>
+        </li>
+        <li>
+          <img src="images/avatar-richard.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Richard Watts</h3>
+            <p>"Manage allows us to provide structure and process. It
+              keeps us organized and focused. I can't stop recommending
+              them to everyone I talk to!"</p>
+          </div>
+        </li>
+        <li>
+          <img src="images/avatar-shanai.png" alt="">
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Shanai Gough</h3>
+            <p>"Their software allows us to track, manage and collaborate
+              on our projects from anywhere. It keeps the whole team in-
+              sync without being intrusive."</p>
+          </div>
+        </li>
+      </ul>
+      <button class="button">Get Started</button>
+    </section>
+    <!-- Call To Action -->
+    <section class="cta | bg-accent-400 text-neutral-100 margin-top-900 padding-block-800">
+      <div class="container">
+        <div class="even-columns vertical-align-center">
+          <div>
+            <h2 class="fs-secondary-heading fw-bold">Simplify how your team works today.</h2>
+          </div>
+          <div class="push-right-md">
+            <button class="button" data-type="inverted">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- Footer -->
+  <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-wrapper-logo-social">
+          <a href="#" aria-label="home">
+            <svg class="logo" width="146" height="24">
+              <use xlink:href="./images/icons.svg#logo"></use>
+            </svg>
+          </a>
+          <ul class="social-list" role="list" aria-label="social links">
+            <li aria-label="facebook"><a href="#">
+              <svg class="social-icon">
+                <use xlink:href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a></li>
+            <li aria-label="youtube"><a href="#">
+              <svg class="social-icon">
+                <use xlink:href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a></li>
+            <li aria-label="twitter"><a href="#">
+              <svg class="social-icon">
+                <use xlink:href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a></li>
+            <li aria-label="pinterest"><a href="#">
+              <svg class="social-icon">
+                <use xlink:href="./images/icons.svg#icon-pinterest"></use>
+              </svg>
+            </a></li>
+            <li aria-label="instagram"><a href="#">
+              <svg class="social-icon">
+                <use xlink:href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a></li>
+          </ul>
+        </div>
+        <div class="footer-wrapper-nav">
+          <nav class="footer-nav | flow" style="--flow-spacer: 1em">
+            <ul role="list" aria-label="Footer">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">products</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-wrapper-form">
+          <form action="">
+            <input type="email">
+            <button data-glow="none" class="button">Go</button>
+          </form>
+          <p class="fs-300">Copyright 2020. All Rights Reserved</p>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
